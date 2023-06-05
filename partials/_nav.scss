@@ -64,8 +64,12 @@ nav {
     // navbar styles on scroll using 25
     &.window-scroll {
       .container {
-        a {
-          color: $white-color;
+        ul {
+          li {
+            a {
+              color: $white-color;
+            }
+          }
         }
       }
     }
