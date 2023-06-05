@@ -34,6 +34,8 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: fit-content;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 
     .container {
       gap: 1rem;
