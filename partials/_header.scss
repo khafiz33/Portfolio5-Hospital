@@ -33,7 +33,7 @@ header {
 // ======================================== Media queries (medium devices) ======================================== //
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: fit-content;
 
     .container {
       gap: 1rem;
@@ -50,8 +50,6 @@ header {
 // ======================================== Media queries (small devices) ======================================== //
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
-
     .container {
       grid-template-columns: 1fr;
       text-align: center;
